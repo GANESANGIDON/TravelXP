@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- meta tags -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- jquery css cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <!-- bootstrap css cdn link -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!-- font awesome icons cdn link -->
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <!-- custom stylesheet -->
+   <link rel="stylesheet" href="./style.css">
+   <title>TravelXP</title>
+</head>
+
+<body>
+   <header>
+      <nav id="nav-bar">
+         <div id="nav-head">
+            <div id="nav-brand">
+               <a href="">Travel<span>XP</span></a>
+            </div>
+            <div id="toggles">
+               <span id="hamburger" title="nav links"><i id="hamburger-icon" class="fa fa-bars"></i></span>
+               <span id="darkmode" title="Toggle theme"><i id="darkmode-icon" class="fa fa-sun"></i></span>
+            </div>
+         </div>
+         <div id="nav-menu">
+            <a href="#home-section" class="nav-links">Home</a>
+            <a href="#services-section" class="nav-links">Services</a>
+            <a href="#places-section" class="nav-links">Places</a>
+            <a href="#review-section" class="nav-links">Review</a>
+            <a href="#contact-section" class="nav-links">Contact</a>
+         </div>
+      </nav>
+   </header>
+   <!-- home section -->
+   <section id="home-section">
+      <div id="carouselExampleCaptions" class="carousel slide" data-pause="false" data-bs-ride="carousel">
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+               aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+               aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+               aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+               aria-label="Slide 4"></button>
+         </div>
+         <div class="carousel-inner">
+            <!-- carousel item 1 -->
+            <div class="carousel-item active">
+               <img src="https://wallpaper.dog/large/20396890.jpg" class="d-block w-100" alt="img 1">
+            </div>
+            <!-- carousel item 2 -->
+            <div class="carousel-item">
+               <img src="https://wallpapercave.com/wp/wp7231482.jpg" class="d-block w-100" alt="img 2">
+            </div>
+            <!-- carousel item 3 -->
+            <div class="carousel-item">
+               <img src="https://wallpaperaccess.com/full/1431622.jpg" class="d-block w-100" alt="img 3">
+            </div>
+            <!-- carousel item 4 -->
+            <div class="carousel-item">
+               <img
+                  src="https://www.expatica.com/app/uploads/sites/3/2014/05/permanent-residence-netherlands-1920x1080.jpg"
+                  class="d-block w-100" alt="img 4">
+            </div>
+         </div>
+      </div>
+      <div class="hero-desc">
+         <span>Travel the way you want to experience the world</span>
+      </div>
+   </section>
+   <!-- services section -->
+   <section id="services-section" class="section">
+      <h2 class="section-heading">Our Services</h2>
+      <div class="services-container">
+         <!-- service 1 -->
+         <div class="services">
+            <div class="content-heading">Travel</div>
+            <div class="s-icons">
+               <span><i class="fad fa-plane"></i></span>
+               <span><i class="fad fa-train"></i></span>
+               <span><i class="fad fa-ship"></i></span>
+            </div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nam
+               reprehenderit eaque iure
+               incidunt atque sunt minima ipsam porro voluptatem.</div>
+         </div>
+         <!-- service 2 -->
+         <div class="services">
+            <div class="content-heading">Foods and drinks</div>
+            <div class="s-icons">
+               <span><i class="fad fa-popcorn"></i></span>
+               <span><i class="fad fa-utensils-alt"></i></span>
+               <span><i class="fad fa-mug-hot"></i></span>
+            </div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nam
+               reprehenderit eaque iure
+               incidunt atque sunt minima ipsam porro voluptatem.</div>
+         </div>
+         <!-- service 3 -->
+         <div class="services">
+            <div class="content-heading">Hotels and Resots</div>
+            <div class="s-icons">
+               <span><i class="fad fa-home-lg"></i></span>
+               <span><i class="fad fa-map-marker-alt"></i></span>
+               <span><i class="fad fa-hotel"></i></span>
+            </div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nam
+               reprehenderit eaque iure
+               incidunt atque sunt minima ipsam porro voluptatem.</div>
+         </div>
+         <!-- service 4 -->
+         <div class="services">
+            <div class="content-heading">local transport</div>
+            <div class="s-icons">
+               <span><i class="fad fa-motorcycle"></i></span>
+               <span><i class="fad fa-bus"></i></span>
+               <span><i class="fad fa-cars"></i></span>
+            </div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nam
+               reprehenderit eaque iure
+               incidunt atque sunt minima ipsam porro voluptatem.</div>
+         </div>
+         <!-- service 5 -->
+         <div class="services">
+            <div class="content-heading">VIP Services</div>
+            <div class="s-icons">
+               <span><i class="fad fa-gem"></i></span>
+               <span><i class="fad fa-user-tie"></i></span>
+               <span><i class="fad fa-credit-card"></i></span>
+            </div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nam
+               reprehenderit eaque iure
+               incidunt atque sunt minima ipsam porro voluptatem.</div>
+         </div>
+         <!-- service 6 -->
+         <div class="services">
+            <div class="content-heading">Our Support</div>
+            <div class="s-icons">
+               <span><i class="fad fa-user-md"></i></span>
+               <span><i class="fad fa-cog"></i></span>
+               <span><i class="fad fa-user-headset"></i></span>
+            </div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nam
+               reprehenderit eaque iure
+               incidunt atque sunt minima ipsam porro voluptatem.</div>
+         </div>
+      </div>
+   </section>
+   <a id="scroll-up" href="#"><i class="fad fa-angle-double-up fa-2x"></i></a>
+   <!-- places section -->
+   <section id="places-section" class="section">
+      <h2 class="section-heading">Places</h2>
+      <div class="places-container">
+         <!-- place 1 -->
+         <div class="place">
+            <div class="p-img-container">
+               <img src="https://www.wallpaperflare.com/static/615/284/1019/city-paris-france-tower-wallpaper.jpg"
+                  alt="france img">
+            </div>
+            <div class="place-content">
+               <div class="content-heading">France</div>
+               <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+               <button class="place-btn">Book Now</button>
+            </div>
+         </div>
+         <!-- place 2 -->
+         <div class="place">
+            <div class="p-img-container">
+               <img src="https://img.theculturetrip.com/wp-content/uploads/2018/05/architecture-3327884_1280.jpg"
+                  alt="singapore img">
+            </div>
+            <div class="place-content">
+               <div class="content-heading">Singapore</div>
+               <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+               <button class="place-btn">Book Now</button>
+            </div>
+         </div>
+         <!-- place 3 -->
+         <div class="place">
+            <div class="p-img-container">
+               <img
+                  src="https://curlytales.com/wp-content/uploads/2020/08/98e6d5549968923db4000649eb81e804-1-1170x614.jpg"
+                  alt="kerala img">
+            </div>
+            <div class="place-content">
+               <div class="content-heading">Kerala</div>
+               <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+               <button class="place-btn">Book Now</button>
+            </div>
+         </div>
+         <!-- place 4 -->
+         <div class="place">
+            <div class="p-img-container">
+               <img
+                  src="https://a36c2e13a78ae1256a2f-1dc878dead8ec78a84e429cdf4c9df00.ssl.cf1.rackcdn.com/u/grand-park-kodhipparu-maldives-20/new-2021/Reef-Pool-Water-Villa.jpg"
+                  alt="maldives img">
+            </div>
+            <div class="place-content">
+               <div class="content-heading">Maldives</div>
+               <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+               <button class="place-btn">Book Now</button>
+            </div>
+         </div>
+         <!-- place 5 -->
+         <div class="place">
+            <div class="p-img-container">
+               <img
+                  src="https://totalenergies.com/sites/g/files/nytnzq121/files/styles/w_1110/public/images/2020-10/Suisse2.jpg?itok=gt1GSlre"
+                  alt="Switzerland img">
+            </div>
+            <div class="place-content">
+               <div class="content-heading">Switzerland</div>
+               <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+               <button class="place-btn">Book Now</button>
+            </div>
+         </div>
+         <!-- place 6 -->
+         <div class="place">
+            <div class="p-img-container">
+               <img
+                  src="https://www.freudenberg.com/fileadmin/_processed_/c/b/csm_20181123_freu-locations-italy_4e3666ad11.jpg"
+                  alt="Italy img">
+            </div>
+            <div class="place-content">
+               <div class="content-heading">Italy</div>
+               <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+               <button class="place-btn">Book Now</button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- review section -->
+   <section id="review-section" class="section">
+      <h2 class="section-heading">Testimonials</h2>
+      <div class="wrapper">
+         <div class="review-carousel owl-carousel">
+            <!-- card 1 -->
+            <div class="card card1">
+               <div class="r-img-container">
+                  <img
+                     src="https://w7.pngwing.com/pngs/411/552/png-transparent-company-avatar-corporation-search-engine-optimization-game-avatar.png"
+                     alt="reviewer1">
+               </div>
+               <div class="content-heading">John Doe</div>
+               <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem,
+                  mollitia, quae sequifuga exercitationem recusandae eum laboriosam illo inventore.</div>
+            </div>
+            <!-- card 2 -->
+            <div class="card card2">
+               <div class="r-img-container">
+                  <img
+                     src="https://img.favpng.com/13/3/16/waiter-computer-icons-avatar-clip-art-png-favpng-ydW1NQf7ca2najcDD2nPk9g8F.jpg"
+                     alt="reviewer2">
+               </div>
+               <div class="content-heading">Akwafina</div>
+               <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem,
+                  mollitia, quae sequi fuga exercitationem recusandae eum laboriosam illo inventore.</div>
+            </div>
+            <!-- card 3 -->
+            <div class="card card3">
+               <div class="r-img-container">
+                  <img
+                     src="https://w7.pngwing.com/pngs/411/552/png-transparent-company-avatar-corporation-search-engine-optimization-game-avatar.png"
+                     alt="reviewer1">
+               </div>
+               <div class="content-heading">Rajesh</div>
+               <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem,
+                  mollitia, quae sequi fuga exercitationem recusandae eum laboriosam illo inventore.</div>
+            </div>
+            <!-- card 4 -->
+            <div class="card card4">
+               <div class="r-img-container">
+                  <img
+                     src="https://img.favpng.com/13/3/16/waiter-computer-icons-avatar-clip-art-png-favpng-ydW1NQf7ca2najcDD2nPk9g8F.jpg"
+                     alt="reviewer1">
+               </div>
+               <div class="content-heading">Selina Kyle</div>
+               <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem,
+                  mollitia, quae sequi fuga exercitationem recusandae eum laboriosam illo inventore.</div>
+            </div>
+            <!-- card 5 -->
+            <div class="card card5">
+               <div class="r-img-container">
+                  <img
+                     src="https://w7.pngwing.com/pngs/411/552/png-transparent-company-avatar-corporation-search-engine-optimization-game-avatar.png"
+                     alt="reviewer1">
+               </div>
+               <div class="content-heading">Don lee</div>
+               <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem,
+                  mollitia, quae sequi fuga exercitationem recusandae eum laboriosam illo inventore.</div>
+            </div>
+            <!-- card 6 -->
+            <div class="card card6">
+               <div class="r-img-container">
+                  <img
+                     src="https://img.favpng.com/13/3/16/waiter-computer-icons-avatar-clip-art-png-favpng-ydW1NQf7ca2najcDD2nPk9g8F.jpg"
+                     alt="reviewer1">
+               </div>
+               <div class="content-heading">Mia George</div>
+               <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem,
+                  mollitia, quae sequi fuga exercitationem recusandae eum laboriosam illo inventore.</div>
+            </div>
+            <!-- card 7 -->
+            <div class="card card7">
+               <div class="r-img-container">
+                  <img
+                     src="https://w7.pngwing.com/pngs/411/552/png-transparent-company-avatar-corporation-search-engine-optimization-game-avatar.png"
+                     alt="reviewer1">
+               </div>
+               <div class="content-heading">Bruce Cambel</div>
+               <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem,
+                  mollitia, quae sequi fuga exercitationem recusandae eum laboriosam illo inventore.</div>
+            </div>
+            <!-- card 8 -->
+            <div class="card card8">
+               <div class="r-img-container">
+                  <img
+                     src="https://img.favpng.com/13/3/16/waiter-computer-icons-avatar-clip-art-png-favpng-ydW1NQf7ca2najcDD2nPk9g8F.jpg"
+                     alt="reviewer1">
+               </div>
+               <div class="content-heading">Hailee Stanfield</div>
+               <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem,
+                  mollitia, quae sequi fuga exercitationem recusandae eum laboriosam illo inventore.</div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- contact section -->
+   <section id="contact-section" class="section">
+      <h2 class="section-heading">Contact</h2>
+      <div class="contact-division">
+         <form id="contact-form" action="https://formspree.io/f/xzbyqjqz" method="post">
+            <div class="contact-form-heading">Contact Us</div>
+            <div class="input-container">
+               <label for="name">Name : </label>
+               <input type="text" name="Name" id="name" class="input-field" placeholder="Enter your name" required>
+            </div>
+            <div class="input-container">
+               <label for="email">Email-ID : </label>
+               <input type="email" name="Mail-id" id="email" class="input-field" placeholder="Enter your email address"
+                  required>
+            </div>
+            <div class="input-container">
+               <label for="message">Message : </label>
+               <textarea name="Message" id="message" class="input-field" rows="3" placeholder="Type your message here"
+                  required></textarea>
+            </div>
+            <button type="submit" class="contact-btn">Send</button>
+            <button type="reset" class="contact-btn">Clear</button>
+         </form>
+         <div class="contact-footer">
+            <div class="mail-info info">
+               <div class="content-heading"><span><i class="fa fa-envelope"></i></span> Mail ID</div>
+               <p class="description">travelxp@gmail.com</p>
+            </div>
+            <div class="phone-info info">
+               <div class="content-heading"><span><i class="fa fa-phone-alt"></i></span> Contact Number</div>
+               <p class="description">9876543210 / 9876543201</p>
+            </div>
+            <div class="address-info info">
+               <div class="content-heading"><span><i class="fa fa-map-marker-alt"></i></span> Address</div>
+               <p class="description">TravelXp building , near Honda showroom , meenambakkam.</p>
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7714605768483!2d80.17414351409006!3d12.986464118067424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e1d4cb16449%3A0x5913f1515a5acb9!2sMeenambakkam%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1639079323781!5m2!1sen!2sin"
+                  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- footer section -->
+   <footer id="footer-section">
+      <div class="footer-division">
+         <div class="footer-div-one">
+            <a href="#" class="footer-links">About Us</a>
+            <a href="#" class="footer-links"> FAQS</a>
+            <a href="#" class="footer-links">Blog</a>
+            <a href="#" class="footer-links">Search</a>
+            <a href="#" class="footer-links">Login/Register</a>
+            <a href="#" class="footer-links">My Dashboard</a>
+            <a href="#" class="footer-links">Careers</a>
+            <a href="#" class="footer-links">Download App</a>
+            <a href="#" class="footer-links">Feedback</a>
+            <a href="#" class="footer-links">Partnerships</a>
+         </div>
+         <div class="footer-div-two">
+            <h3 class="content-heading">Follow Us On : </h3>
+            <div class="social-icons-div">
+               <a href="#" title="facebook"><i class="fab fa-facebook-f social-icons"></i></a>
+               <a href="#" title="instagram"><i class="fab fa-instagram social-icons"></i></a>
+               <a href="https://www.linkedin.com/in/ganesan-r-3083a8211" title="linkedin"><i
+                     class="fab fa-linkedin-in social-icons"></i></a>
+            </div>
+         </div>
+      </div>
+      <div class="copyright"><span><i class="fal fa-copyright"></i></span> copyright , All rights reserved.</div>
+   </footer>
+
+   <!-- jquery script cdn link -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+   <!-- bootstrap js cdn link -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+   </script>
+
+   <!-- custom javaScript -->
+   <script src="./script.js"></script>
+</body>
+
+</html>
